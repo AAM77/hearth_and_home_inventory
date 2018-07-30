@@ -2,6 +2,9 @@
   <h2><%= current_user.username %>'s Information: </h2>
 </div>
 
+<br>
+<br>
+
 <label for="first name">First Name:
 <p><%= @user.first_name %></p>
 </label>
@@ -34,8 +37,7 @@
 
 <br>
 
-<!-- Display delete button -->
-<form action="/<%= @user.slug %>/delete" method="POST">
-  <input id="hidden" type="hidden" name="_method" value="delete">
-  <button class="content_button"  type="submit">Delete Account</button>
-</form>
+<!-- DELETE BUTTON -->
+<%= erb(:"partials/button_delete_partial", :locals => {
+  :object_string => "Account", :delete_path => @user.slug+"/delete"
+  })%>
