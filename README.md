@@ -1,6 +1,8 @@
 
 # Hearth and Home Inventory Sorter (HHIS)
 
+## [ NOTE ]: I will return to this app to clean up the code and add more features as soon as I finish the Flatiron School curriculum.
+
 ## Background
 
 The inspiration for this app came from a discussion regarding the usefulness of taking an inventory of one's home for insurance purposes. Of course, to be completely useful for that, this app would need to allow the user to upload images an videos. Although I learned how to do this and plan to add this feature, I decided not to do so for the time being.
